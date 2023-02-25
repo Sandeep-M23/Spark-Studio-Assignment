@@ -1,0 +1,50 @@
+/*App Container*/
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*Card Section*/
+.card-section{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/*Filter Section*/
+.filter-section{
+  margin: 20px;
+  padding: 10px;
+  display: flex;
+}
+
+/*Inner Filter divs*/
+.filter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+/*Filter Buttons*/
+.filter-btn{
+background-color: #EDFCFF;
+cursor: pointer;
+border-radius: 8px;
+color: black;
+border:  none;
+padding: 20px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+text-align: center;
+}
+
+/*Filter button Selected State*/
+.selected {
+  background-color: #3EBEFF;
+}
