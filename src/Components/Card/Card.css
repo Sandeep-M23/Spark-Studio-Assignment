@@ -1,0 +1,332 @@
+/*Main Card Component*/
+.card {
+    width: 328px;
+    height: 750px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    margin: 40px;
+    cursor: pointer;
+    -webkit-transition: 0.3s transform ease-out;
+    transition: 0.3s transform ease-out;
+}
+
+/*Card Hover State*/
+.card:hover {
+    -webkit-transform: translateY(-45px);
+    transform: translateY(-45px);
+}
+
+/*Card Heading*/
+.card-heading{
+    position: relative;
+    border-radius: 4px;
+    height: 140px;
+}
+
+/*Discount Tag*/
+.discount-tag{
+    position: absolute;
+    right: 0;
+}
+
+/*Discount Tag SVG*/
+.discount-tag img {
+    position: relative;
+}
+
+/*Discount Tag SVG Content*/
+.discount-tag p {
+position: absolute;
+top: -2px;
+right:10px;
+font-family: 'Lato';
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+text-align: center;
+color: #333333;
+}
+
+/*Session Tag*/
+.session-tag{
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
+
+/*Session Tag SVG*/
+.session-tag img {
+    position: relative;
+}
+
+/*Session Tag SVG Content*/
+.session-tag p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+/*Title Section in Header*/
+.title-section{
+    position: absolute;
+    margin-top: 35px;
+    padding: 20px;
+}
+
+/*Title*/
+.title{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+color: #006292;
+text-align: left;
+margin: 10px 0px;
+}
+
+/*Rating Section*/
+.review-section{
+    display: flex;
+}
+
+/*Rating Section paragaraph*/
+.review-section p {
+    margin: 0px 5px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #333333;
+}
+
+/*Card Body*/
+.card-body{
+    padding: 15px 20px;
+    background-color: #F8F8F8;
+}
+
+/*Card Info or Pitch Data*/
+.card-info { 
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #333333;
+text-align: left;
+
+}
+
+/*Student Achieve heading*/
+.student-heading{
+font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+color: #000000;
+text-align: left;
+}
+
+/*Unordered List*/
+.student-list{
+    text-align: left;
+    padding: 0px 20px;
+}
+
+/*Sub-list component*/
+.student-list li {
+font-family: 'Lato';
+margin: 8px 0px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #666666;
+}
+
+/*View More Details Container*/
+.details {
+font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+text-decoration-line: underline;
+color: #333333;
+display: flex;
+align-items: flex-start;
+}
+
+/*View More Details Button*/
+.details button{
+background:none;
+border:none;
+cursor: pointer;
+}
+
+/*Card Footer Section*/
+.card-footer{
+    background-color: #F8F8F8;
+}
+
+/*Hr tag*/
+.horizontal{
+   margin: 0;
+}
+
+.buyCourse {
+    display: flex;
+    justify-content: center;
+}
+
+/*Buy course Btn*/
+.buyCourse button {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 10px 30px;
+    background: linear-gradient(90deg, #F3705B 0%, #FCB444 100%);
+    border: none;
+    border-radius: 48px;
+    margin: 25px;
+}
+
+/*Notice highlight*/
+.notice p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 16px;
+color: #F47759;
+background-color: #F8F8F8;
+padding: 8px;
+margin: 0;
+text-align: center;
+}
+
+/*Pricing Section Container*/
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 10px;
+    background-color: #F8F8F8;
+}
+
+/*Pricing Section Left*/
+.pricing-left {
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+
+.pricing-left h3{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+color: #333333;
+margin: 5px 0px;
+}
+
+.pricing-left p{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #999999;
+margin: 5px 0px;
+text-decoration: line-through;
+}
+
+/*Pricing Section Right*/
+.pricing-right{
+    display: flex;
+    align-items: center;
+}
+
+.pricing-right h3{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #333333;
+}
+
+.pricing-right p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #999999;
+    margin-left: 4px;
+}
+
+/*Tag Section*/
+.tag-section {
+    background-color: #D5F1FE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tag-section .tags {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+.tags p {
+    margin: 0px 4px;
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+
+    color: #333333;
+}
+
+/*Different Card States & Their Hover States*/
+.communicationCard{
+    background-color:#EDFCFF;
+}
+
+.communicationCard:hover{
+    background-color: #3EBEFF;
+}
+
+.visualCard{
+    background-color: #DCCCFF;
+}
+
+.visualCard:hover{
+    background-color: #905CFF;
+}
+
+.musicCard{
+background-color: #FFEDC8;
+}
+.musicCard:hover{
+    background-color: #F9B215;
+}
